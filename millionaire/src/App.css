@@ -1,0 +1,95 @@
+.app{
+    height: 100vh;
+    display: flex;
+    background-color: #020230;
+    color:white
+}
+
+.main{
+    width: 75%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), #020230), url("./assets/millionaire.jpg") center ;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+height: 50%;
+position: relative;
+}
+
+.timer{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+border: 5px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+font-weight: 700;
+position: absolute;
+bottom:10px;
+left: 100px;
+}
+
+.botton{
+    height: 50%;
+}
+
+.pyramid{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.moneyList{
+list-style: none;
+width: 100%;
+padding: 20px;
+}
+
+.moneyListItem{
+display: flex;
+align-items: center;
+padding: 5px;
+border-radius: 5px;
+
+}
+
+.moneyListItem.active {
+    background-color: teal;
+}
+
+.moneyListItemNumber{
+    font-size: 18px;
+    font-weight: 100;
+    width: 30%;
+}
+
+.moneyListItemAmount{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.earnedText{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    /* color:midnightblue */
+
+
+}
+
+.congratulation{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
